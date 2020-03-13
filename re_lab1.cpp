@@ -66,6 +66,7 @@ void task_2() {
         }
 	}
 	array_output(ARRAY, newN);
+    free(ARRAY);
 }
 
 void array_creator() {
